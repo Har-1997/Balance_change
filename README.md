@@ -27,7 +27,7 @@ To run the application in production mode:
   npm start
 ```
 
-To run test with fousends request:
+To test with thousands of queries:
 ```bash or ...
   npm run load-test
 ```
