@@ -1,7 +1,7 @@
 const autocannon = require('autocannon');
 
 const url = 'http://localhost:3000/api/users/update_balance';
-const bodyData = { userId: 1,  amount: -2 };
+const bodyData = { userId: 1,  amount: 2 };
 
 
 const test = autocannon({
